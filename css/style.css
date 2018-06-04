@@ -1,0 +1,133 @@
+@font-face {
+	font-family: AvenirNext-Bold;
+	src: url(../fonts/AvenirNext-Bold.ttf)
+}
+
+body {
+	background: url(../images/backgr1.png) no-repeat;
+	background-size: cover;
+	display: flex;
+    justify-content: center;
+	height: 100%;
+	margin: 0;
+	letter-spacing: 1px;
+	color: white;
+	font-family: AvenirNext-Bold;
+	
+}
+
+.widget {
+	display: flex;
+	text-align: center;
+	box-shadow: 0px 0 10px 10px rgba(0, 0, 0, .8);
+	margin: 12% 12%;
+	width: 600px;
+	height: 400px;
+	align-self: center;
+	flex-direction: column;
+}
+
+.widget-row {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+}
+
+
+.widget .widget-row .item {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap; 
+	height: 100%;
+	width: calc(100%/3);
+	align-items: center;
+	justify-content: flex-end;
+	
+
+}
+
+.item p {
+	margin-top: 10px;
+	margin-bottom: 35px;
+}
+
+.item img {
+	height: 88px;
+}
+
+.widget-text {
+
+	margin-left: 20%;
+
+}
+
+.chicago {
+	background-color: #06b3db;
+	
+}
+
+.seatle {
+	background-color: #4ed486;
+}
+
+.brooklin {
+	background-color: #6139f6;
+}
+
+.portland {
+	background-color: #e3b63d;
+}
+
+
+.no-name-city header{
+	background-color: #dc3d66;
+	height: 50%;
+	width: 100%;
+}
+
+.no-name-city header img {
+	padding-top: 10px;
+}
+
+.no-name-city main{
+	background-color: #b43255;
+	display: flex;
+	height: 50%;
+	
+}
+
+.no-name-city main ul{
+	height: 100%;
+	display: flex;
+	
+    justify-content: center;
+	margin: 0;
+	padding: 0;
+	align-content: center;
+}
+
+
+.mini-weather li{
+	width: 25%;
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 12px;
+	align-content: center;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-top: 5px;
+
+}
+
+.item .small-img {
+	width: 55%;
+	height: 20px;
+	margin-top: 5px;
+}
+
+
+.san-jose {
+	background-color: #bd54cd;
