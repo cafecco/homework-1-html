@@ -12,8 +12,7 @@ body {
 	margin: 0;
 	letter-spacing: 1px;
 	color: white;
-	font-family: AvenirNext-Bold;
-	
+	font-family: AvenirNext-Bold;	
 }
 
 .widget {
@@ -43,8 +42,6 @@ body {
 	width: calc(100%/3);
 	align-items: center;
 	justify-content: flex-end;
-	
-
 }
 
 .item p {
@@ -59,12 +56,10 @@ body {
 .widget-text {
 
 	margin-left: 20%;
-
 }
 
 .chicago {
 	background-color: #06b3db;
-	
 }
 
 .seatle {
@@ -94,19 +89,16 @@ body {
 	background-color: #b43255;
 	display: flex;
 	height: 50%;
-	
 }
 
 .no-name-city main ul{
 	height: 100%;
 	display: flex;
-	
     justify-content: center;
 	margin: 0;
 	padding: 0;
 	align-content: center;
 }
-
 
 .mini-weather li{
 	width: 25%;
@@ -119,7 +111,6 @@ body {
 	padding-top: 10px;
 	padding-left: 10px;
 	margin-top: 5px;
-
 }
 
 .item .small-img {
@@ -131,3 +122,4 @@ body {
 
 .san-jose {
 	background-color: #bd54cd;
+}
